@@ -1,7 +1,7 @@
 
 #!/bin/bash
-# Docker Cleanup Script
-# This script stops running containers and prunes unused Docker resources
+# Скрипт очистки докеров
+# Этот скрипт останавливает запущенные контейнеры и удаляет неиспользуемые ресурсы Docker
 
 echo "Stopping all running containers..."
 docker stop $(docker ps -q)
